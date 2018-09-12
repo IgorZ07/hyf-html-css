@@ -1,0 +1,116 @@
+    /* ruleset for smartphones*/
+@media only screen and (max-width: 767px) {
+    
+         #grid-flex {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-content: space-around;
+         }
+
+         #grid-flex .grid-item:nth-child(1) {
+            width: 80%;
+            height: auto;
+            border: 1px solid rgb(173, 84, 84);
+            border-radius: 5%;
+            padding: 1em;
+            margin: 3px;
+            box-shadow: 2px 5px 5px rgb(84, 173, 121);
+            background-color: rgb(229, 230, 231);
+    
+        }
+
+        #grid-flex .grid-item:nth-child(n+2) {
+            width: 33%;
+            height: auto;
+            border: 1px solid rgba(170, 169, 169, 0.603);
+            border-radius: 5%;
+            padding: 1em;
+            margin: 3px;
+            box-shadow: 2px 5px 5px #888888;
+            background-color: rgb(229, 230, 231);
+    
+        }
+
+    }
+
+    /* ruleset for tablets*/
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    
+          #grid-flex {
+
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-content: space-around;
+
+        }
+        #grid-flex .grid-item:nth-child(n+1):nth-child(-n+2) {
+            width: 41%;
+            height: auto;
+            border: 1px solid rgb(173, 84, 84);
+            border-radius: 5%;
+            padding: 1em;
+            margin: 3px;
+            box-shadow: 3px 5px 5px rgb(84, 173, 121);
+            background-color: rgb(244, 245, 247);
+            
+
+        }
+        #grid-flex .grid-item:nth-child(n+3) {
+            width: 26%;
+            height: auto;
+            border: 1px solid rgba(170, 169, 169, 0.603);
+            border-radius: 5%;
+            padding: 1em;
+            margin: 3px;
+            box-shadow: 3px 5px 5px #888888;
+            background-color: rgb(244, 245, 247);
+        }
+
+    }
+
+     /* ruleset for pc*/
+    @media only screen and (min-width: 1024px) {
+       
+        #grid-flex {
+            display: flex;
+             flex-wrap: wrap;
+             flex-direction: row;
+             align-content: space-around;
+        }
+
+        #grid-flex .grid-item:nth-child(1) {
+            width: 43%;
+            height: auto;
+            border: 1px solid rgb(173, 84, 84);
+            border-radius: 5%;
+            padding: 1em;
+            margin: 5px;
+            box-shadow: 3px 5px 5px rgb(84, 173, 121);
+            background-color: rgb(245, 247, 244);
+        }
+
+        #grid-flex .grid-item:nth-child(n+2) {
+            width: 20%;
+            height: auto;
+            border: 1px solid rgba(170, 169, 169, 0.603);
+            border-radius: 5%;
+            padding: 1em;
+            margin: 3px;
+            box-shadow: 3px 5px 5px #888888;
+            background-color: rgb(244, 245, 247);
+        }
+
+        #grid-flex .grid-item:nth-child(1):hoover {
+            width: 43%;
+            height: auto;
+            border: 1px solid rgb(173, 84, 84);
+            border-radius: 5%;
+            padding: 1em;
+            margin: 5px;
+            box-shadow: 3px 5px 5px rgb(84, 173, 121);
+            background-color: rgb(81, 209, 17);
+        }
+
+    }

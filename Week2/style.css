@@ -1,0 +1,51 @@
+@import url("css/flexbox.css");
+@import url("css/float.css");
+@import url("css/keyframes.css");
+        
+img {     
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+h1 {
+    color: coral;
+
+}
+
+.hyf_logo {
+    width: 15%;
+    position: relative;
+    
+
+}
+
+h3 {
+    text-align: center;
+    
+}
+
+li {
+    list-style-type: none;
+/*  list-style-position: inside;*/
+}
+
+
+* {
+    font-weight: 400;
+
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    background: url(images/drone7.png) no-repeat fixed center;
+    filter: brightness(100%) grayscale(70%);
+    animation: body 5s ease-in 0ms 1;
+}
+
+
+    

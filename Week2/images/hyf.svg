@@ -1,0 +1,25 @@
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <filter height="200%" id="svg_1_blur" width="200%" x="-50%" y="-50%">
+   <feGaussianBlur stdDeviation="1.5"/>
+  </filter>
+  <filter id="svg_3_blur">
+   <feGaussianBlur stdDeviation="1.5"/>
+  </filter>
+  <filter id="svg_4_blur">
+   <feGaussianBlur stdDeviation="1.5"/>
+  </filter>
+ </defs>
+ <g class="layer" display="inline">
+  <title>Layer 1</title>
+  <text fill="#666262" filter="url(#svg_1_blur)" font-family="Sans-serif" font-size="111" id="svg_1" stroke="#000000" stroke-width="0" text-anchor="middle" x="281.007813" xml:space="preserve" y="159.5">A C K</text>
+  <line fill="none" id="svg_10" opacity="1" stroke="#ff0000" stroke-dasharray="null" stroke-width="15" x1="33.5" x2="33.5" y1="166.500001" y2="76.499993"/>
+  <text fill="#666262" filter="url(#svg_3_blur)" font-family="Sans-serif" font-size="111" id="svg_3" stroke="#000000" stroke-width="0" text-anchor="middle" x="288.5" xml:space="preserve" y="269.5">O U R</text>
+  <text fill="#666262" filter="url(#svg_4_blur)" font-family="Sans-serif" font-size="111" id="svg_4" stroke="#000000" stroke-width="0" text-anchor="middle" x="381.5" xml:space="preserve" y="380.5">U T U R E</text>
+  <line fill="none" id="svg_11" opacity="1" stroke="#00ff00" stroke-dasharray="null" stroke-width="15" x1="94.5" x2="94.5" y1="166" y2="77.000005"/>
+  <line fill="none" id="svg_19" opacity="1" stroke="#ff7f00" stroke-dasharray="null" stroke-linecap="round" stroke-width="15" transform="rotate(-90 50.5 337.5)" x1="50.5" x2="50.5" y1="350" y2="325.000001"/>
+  <path d="m31.5,197.5l31.520487,36.46928l0.57106,40.03072" fill="none" id="svg_16" opacity="1" stroke="#0000ff" stroke-dasharray="null" stroke-width="15"/>
+  <line fill="none" id="svg_20" opacity="1" stroke="#ff7f00" stroke-dasharray="null" stroke-linecap="round" stroke-width="15" transform="rotate(-90 57 306.5)" x1="57" x2="57" y1="329.000001" y2="284.000002"/>
+ </g>
+</svg>
