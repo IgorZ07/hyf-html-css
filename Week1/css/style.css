@@ -30,6 +30,7 @@
     box-shadow: 3px 5px rgba(15, 27, 34, 0.2);
     margin-left: 22%;
     background-color: rgb(223, 242, 253);
+ 
 }
 
 .comp_avatar {
@@ -76,3 +77,10 @@ h1 {
 .employer ul, h4 {
     padding-left: 5em;
 }
+
+@media only screen and (max-width: 767px) {
+        display: flex;
+        flex-direction: column;
+        align-content: stretch;
+        
+    }
