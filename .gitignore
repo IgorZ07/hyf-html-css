@@ -1,0 +1,9 @@
+Books/
+Materials/
+.DS_Store
+*.zip
+*.gz
+log/*.log
+log/*.log.[0-9]
+# This files will be ignored by Git
+
