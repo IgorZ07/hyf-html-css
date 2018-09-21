@@ -9,7 +9,7 @@
          }
 
          #grid-flex .grid-item:nth-child(1) {
-            width: 80%;
+            width: 80%; /* flex-basis: 80%; лучше и правильнее использовать flex-basis */
             height: auto;
             border: 1px solid rgb(173, 84, 84);
             border-radius: 5%;
@@ -21,7 +21,7 @@
         }
 
         #grid-flex .grid-item:nth-child(n+2) {
-            width: 33%;
+            width: 33%; /* flex-basis: 33%; */
             height: auto;
             border: 1px solid rgba(170, 169, 169, 0.603);
             border-radius: 5%;
